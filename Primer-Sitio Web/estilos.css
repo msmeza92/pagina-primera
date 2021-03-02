@@ -1,0 +1,85 @@
+*{padding: 0px; margin: 0px}
+.agrupar{
+background-color: wheat;
+width: 960px;
+margin:30px auto;
+border: 1px solid brown
+}
+h1{
+font-size: 20 px; font-family: 'Lucida Sans';font-weight: bolder}
+h2{
+font: bold 14px sans-serif;
+}
+header, section, footer, aside, nav, article, hgroup {display: block;}
+   
+body{
+text-align:center;
+}
+.cabecera{
+background-color: #cc7a51;
+border: 1px solid brown; padding: 40px;
+text-align: left;
+}
+.cabecera h1{
+text-align: left;
+}
+.menu {
+background-color: #FF3F00; 
+padding: 5px 15px;
+text-align: left;
+}
+.menu li {
+    list-style: none; 
+    background-color: coral;
+    padding: 5px; 
+    font: bolder 18px sans-serif;
+    color: #f8f5f5;
+    display: inline-block; 
+ }
+.seccion{
+    border: rgb(139, 0, 46) 2px solid;
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+    width: 60%;
+    float: left;
+}
+.columnalateral { 
+    width: 30%;
+    margin-top: 40px;
+    float: left;
+    background: rgb(228, 206, 214);
+ }
+.columnalateral blockquote{ 
+border: solid 1px black;
+padding: 40px;
+background: #f8f5f5; 
+margin-bottom: 20px;
+}
+.pie {
+    clear: both;
+    padding: 40px; 
+    background-color: chocolate;
+    border: darkred solid 2px;
+    font: bolder black geneva; 
+    
+}
+article{
+    background-color: rgb(241, 132, 113);
+    padding: 20px;
+    border:snow solid 1px;
+    margin-bottom: 10px;
+}
+article footer{
+    text-align: right;
+    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    background-color: brown;
+    margin: 1px;
+}
+time{
+    color: antiquewhite;
+ }
+ img { 
+     width: 500px; margin:20px auto;
+ }
